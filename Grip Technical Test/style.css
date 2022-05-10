@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section__Left {
+  background: white;
+}
+
+.section__Right {
+  background: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section__Left, .section__Right {
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section__RightImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__RightImgOne {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 250;
+  width: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  left: 30%;
+}
+
+.section__RightImgTwo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: relative;
+  height: 182;
+  width: 350;
+  position: relative;
+  right: 20%;
+}
+
+.section__LeftPara > p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #998b8b;
+  padding-bottom: 30px;
+}
+
+.section__LeftButton > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 20px;
+  font-family: sans-serif;
+  position: relative;
+  width: 320px;
+  height: 60px;
+  font-size: large;
+  color: #fff;
+  background-color: #f7750a;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.section__RightPara {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__RightPara > h1 {
+  padding: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section__RightPara > p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section__Right, .section__Left {
+    width: 50%;
+    height: 100vh;
+  }
+  .section__LeftButton > button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding: 20px;
+    font-family: sans-serif;
+    position: relative;
+    width: 520px;
+    height: 60px;
+    font-size: large;
+    color: #fff;
+    background-color: #f7750a;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .section__RightImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section__RightImgOne {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 350;
+    width: 400;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    left: 30%;
+  }
+  .section__RightImgTwo {
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    height: 240;
+    width: 550;
+    position: relative;
+    right: 20%;
+  }
+}
+
+/* small tablets */
+/* large tablets */
+/* desktop */
+/*# sourceMappingURL=style.css.map */
